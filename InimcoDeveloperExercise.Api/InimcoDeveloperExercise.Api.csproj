@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>InimcoDeveloperExercise</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9" />
+        <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.31.2" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\InimcoDeveloperExercise.CosmosDB\InimcoDeveloperExercise.CosmosDB.csproj" />
+      <ProjectReference Include="..\InimcoDeveloperExercise\InimcoDeveloperExercise.csproj" />
+    </ItemGroup>
+
+</Project>

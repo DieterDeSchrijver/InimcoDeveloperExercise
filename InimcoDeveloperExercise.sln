@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InimcoDeveloperExercise.Api", "InimcoDeveloperExercise.Api\InimcoDeveloperExercise.Api.csproj", "{2E0AE220-4EC2-4485-904A-4E9A24DF6498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InimcoDeveloperExercise", "InimcoDeveloperExercise\InimcoDeveloperExercise.csproj", "{6D585EE8-EFC8-43CD-B24B-9C63C4CE01C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InimcoDeveloperExercise.CosmosDB", "InimcoDeveloperExercise.CosmosDB\InimcoDeveloperExercise.CosmosDB.csproj", "{D7DD4B53-C2CA-43E6-BD69-F0B0BDBFABFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InimcoDeveloperExercise.UnitTests", "InimcoDeveloperExercise.UnitTests\InimcoDeveloperExercise.UnitTests.csproj", "{21190924-520E-433E-A962-149EED34A694}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E0AE220-4EC2-4485-904A-4E9A24DF6498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0AE220-4EC2-4485-904A-4E9A24DF6498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0AE220-4EC2-4485-904A-4E9A24DF6498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0AE220-4EC2-4485-904A-4E9A24DF6498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D585EE8-EFC8-43CD-B24B-9C63C4CE01C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D585EE8-EFC8-43CD-B24B-9C63C4CE01C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D585EE8-EFC8-43CD-B24B-9C63C4CE01C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D585EE8-EFC8-43CD-B24B-9C63C4CE01C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7DD4B53-C2CA-43E6-BD69-F0B0BDBFABFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7DD4B53-C2CA-43E6-BD69-F0B0BDBFABFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7DD4B53-C2CA-43E6-BD69-F0B0BDBFABFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7DD4B53-C2CA-43E6-BD69-F0B0BDBFABFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21190924-520E-433E-A962-149EED34A694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21190924-520E-433E-A962-149EED34A694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21190924-520E-433E-A962-149EED34A694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21190924-520E-433E-A962-149EED34A694}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
